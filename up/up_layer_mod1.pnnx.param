@@ -1,0 +1,5 @@
+7767517
+3 2
+pnnx.Input               pnnx_input_0             0 1 0 #0=(1,7,16,31)f32
+F.upsample               F.upsample_0             1 1 0 1 align_corners=False mode=bilinear scale_factor=(5.000000e+00,6.000000e+00) $input=0 #0=(1,7,16,31)f32 #1=(1,7,80,186)f32
+pnnx.Output              pnnx_output_0            1 0 1 #1=(1,7,80,186)f32

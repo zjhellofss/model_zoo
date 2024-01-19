@@ -1,0 +1,5 @@
+7767517
+3 2
+pnnx.Input               pnnx_input_0             0 1 0 #0=(4,31,1305)f32
+nn.Linear                linear                   1 1 0 1 bias=True in_features=1305 out_features=2047 @bias=(2047)f32 @weight=(2047,1305)f32 #0=(4,31,1305)f32 #1=(4,31,2047)f32
+pnnx.Output              pnnx_output_0            1 0 1 #1=(4,31,2047)f32
